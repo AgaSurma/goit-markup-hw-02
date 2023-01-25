@@ -6,9 +6,60 @@
    
     <style>
   body {
-   font-family: 'roboto', sans-serif;
   }
   body {
-    font-family: "roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
   }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  span {
+    color: #2196F3;
+  }
+  .logo {
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .nav-contact {
+    color: #757575;
+   
+  } 
+  .nav-contact:hover{
+    color: #2196F3;
+  }
+  .nav-contact:focus{
+    color: #2196F3;
+  }
+  .nav-links :hover {
+    color: #2196F3;
+  }
+  .nav-links :focus{
+    color: #2196F3;
+  }
+  .main-header {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    width: 1600px;
+    height: 600px;
+  }
+  #order{
+    background-color: #2196F3;
+    border: 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+
+  }
+ 
     </style>
