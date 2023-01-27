@@ -11,55 +11,136 @@
   font-family: 'Roboto', sans-serif;
   color: #212121;
   }
+  ul {
+    list-style-type: none;
+  }
   a {
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
-    font-weight: 500;
     font-size: 14px;
   }
-  span {
-    color: #2196F3;
-  }
+  
   .logo {
+    font-family: 'Raleway', sans-serif;
     color: #000000;
     font-weight: 700;
-    font-size: 26px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 26px; 
   }
+  .first-logo-part {
+    color: #2196F3;
+  }
+  .white{
+    color:#FFFFFF
+  }
+  .nav-links {
+    text-align: center;
+  }
+  .nav-links :hover, .nav-links :focus{
+    color: #2196F3;
+  }
+
   .nav-contact {
     color: #757575;
-   
+    text-align: right;
+  
+
   } 
-  .nav-contact:hover{
+  
+  .nav-contact:hover, .nav-contact:focus{
     color: #2196F3;
   }
-  .nav-contact:focus{
-    color: #2196F3;
+  .header-background{
+    background-position: 0px 0px;
+    background-size: 1600px 80px;
   }
-  .nav-links :hover {
-    color: #2196F3;
-  }
-  .nav-links :focus{
-    color: #2196F3;
-  }
+  
   .main-header {
     background-color: #2F303A;
+    background-size: 1600px 600px;
+    background-position: 0px 80px;
     color: #FFFFFF;
+  
     font-weight: 900;
     font-size: 44px;
-    width: 1600px;
-    height: 600px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0,06em;
+    text-transform: uppercase;
   }
   #order{
-    background-color: #2196F3;
-    border: 1px;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    width: 200px;
-    height: 50px;
-
+top: 440px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0,06em;
+color: #FFFFFF;
+text-transform: none;
+background-size: 200px 50px;
+background-color: #2196F3;
+box-shadow: ;0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
   }
- 
+  
+  .first-section {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0,03em;
+color:#757575;
+}
+ .first-section-header {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0,03em;
+color:#212121;
+text-transform: uppercase;
+ }
+ .second-section{
+
+ }
+ .section-header{
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0,03em;
+text-align: center;
+ }
+ .third-section {
+  background-color: #F5F4FA;
+  background-size: 1600px 648px;
+
+ }
+ .card{
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #757575;
+ }
+ .card-header{
+  font-weight: 500;
+  color:#212121;
+
+ }
+ .section-footer {
+  background-color: #2F303A;
+
+ }
+ .footer-address{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+.footer-contact{
+ font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6);
+ }
     </style>
