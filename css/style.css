@@ -9,15 +9,23 @@
   }
   body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color:var(--main-color, black);
   }
+  :root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --brand-blue: #2196F3;
+}
+/* color:var(--main-color, black);
+ color:var(--secondary-color, grey);
+ color:var(--brand-blue, blue); */
   ul {
     list-style-type: none;
   }
   a {
     text-decoration: none;
     font-weight: 500;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-size: 14px;
   }
   
@@ -28,7 +36,7 @@
     font-size: 26px; 
   }
   .first-logo-part {
-    color: #2196F3;
+    color:var(--brand-blue, blue);
   }
   .white{
     color:#FFFFFF
@@ -37,18 +45,18 @@
     text-align: center;
   }
   .nav-links :hover, .nav-links :focus{
-    color: #2196F3;
+    color:var(--brand-blue, blue);
   }
 
   .nav-contact {
-    color: #757575;
+    color:var(--secondary-color, grey);
     text-align: right;
   
 
   } 
   
   .nav-contact:hover, .nav-contact:focus{
-    color: #2196F3;
+    color:var(--brand-blue, blue);
   }
   .header-background{
     background-position: 0px 0px;
@@ -63,7 +71,7 @@
   
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,4;
     text-align: center;
     letter-spacing: 0,06em;
     text-transform: uppercase;
@@ -72,31 +80,31 @@
 top: 440px;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1,9;
 align-items: center;
 text-align: center;
 letter-spacing: 0,06em;
 color: #FFFFFF;
 text-transform: none;
 background-size: 200px 50px;
-background-color: #2196F3;
+background-color:var(--brand-blue, blue);
 box-shadow: ;0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
   }
   
   .first-section {
-font-weight: 400;
+/* font-weight: 400; */
 font-size: 14px;
-line-height: 24px;
+line-height: 1,7;
 letter-spacing: 0,03em;
-color:#757575;
+color:var(--secondary-color, grey);
 }
  .first-section-header {
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1,1;
 letter-spacing: 0,03em;
-color:#212121;
+color:var(--main-color, black);
 text-transform: uppercase;
  }
  .second-section{
@@ -105,7 +113,7 @@ text-transform: uppercase;
  .section-header{
   font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1,2;
 letter-spacing: 0,03em;
 text-align: center;
  }
@@ -116,15 +124,15 @@ text-align: center;
  }
  .card{
   background-color: #FFFFFF;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,2;
   text-align: center;
-  color: #757575;
+  color:var(--secondary-color, grey);
  }
  .card-header{
   font-weight: 500;
-  color:#212121;
+  color:var(--main-color, black);
 
  }
  .section-footer {
@@ -132,15 +140,60 @@ text-align: center;
 
  }
  .footer-address{
-  font-weight: 400;
+   font-style: normal;
+  /* font-weight: 400; */
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,7;
   color: #FFFFFF;
  }
 .footer-contact{
- font-weight: 400;
+ /* font-weight: 400; */
 font-size: 14px;
-line-height: 24px;
+line-height: 1,7;
 color: rgba(255, 255, 255, 0.6);
  }
+ /* Nie działa poniższy hover, nie rozumiem dlaczego */
+ .footer-contact:hover .footer-contact:focus{
+  color:var(--brand-blue, blue);
+ }
+.footer-contact.underlined{
+  text-decoration: underline;
+}
+
+ .portfolio-main {
+  border-top: #ECECEC;
+  background: #E5E5E5;
+ }
+ .buttons {
+  text-align: center;
+ }
+ .button{
+ font-weight: 500;
+  font-size: 16px;
+  line-height: 1,6;
+  text-align: center;
+  color:var(--main-color, black);
+  cursor: pointer;
+ }
+ .button:hover, .button:focus{
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color:var(--brand-blue, blue);
+  border-color:var(--brand-blue, blue);
+ }
+ .product-card{
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1,9;
+  color:var(--secondary-color, grey);
+}
+.product-card-header{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color:var(--main-color, black);
+}
     </style>
